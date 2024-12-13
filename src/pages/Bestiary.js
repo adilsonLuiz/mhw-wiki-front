@@ -4,6 +4,7 @@ import Monster from '../components/monster'
 import monsterDB from '../database/monsters.json'
 import { useNavigate } from 'react-router-dom';
 import TitleComponent from '../components/titleComponent';
+import HorizonComponent from '../components/horizonComponent';
 
 
 
@@ -21,6 +22,8 @@ function Bestiary() {
     return (
         <div className='content-monster'>
             <TitleComponent/>
+            
+            <HorizonComponent />
             <div className='column-04'>
                 {monsters.map((m, index) => (
                     <Monster monster={m} />
@@ -38,6 +41,7 @@ function Bestiary() {
                     >
                         Back to home
                     </button>
+                    
                 </footer>
             </div>
         </div>

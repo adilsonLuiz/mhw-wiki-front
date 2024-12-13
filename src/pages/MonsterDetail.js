@@ -2,6 +2,7 @@
 
 import { useLocation, useNavigate } from "react-router-dom"
 import TitleComponent from '../components/titleComponent';
+import LogoGameComponent from '../components/mhwMainLogoComponent'
 
 export default function MonsterDetail() {
 
@@ -13,6 +14,8 @@ export default function MonsterDetail() {
     return (
         <div className='content-monster'>
             <TitleComponent/>
+            
+            
             <button
                 onClick={() => navigate('/bestiary')}
                 className='btn-bestiary'
@@ -37,6 +40,7 @@ export default function MonsterDetail() {
                 textAlign: 'center'
             }}>{state.m.name}</h1>
             <p className="monster-lore ">{state.m.lore}</p>
+            <LogoGameComponent/>
         </div>
     )
 }
