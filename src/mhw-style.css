@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #333333;
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.content-monster {
+
+  display: flex;
+  flex-direction:column;
+  width: 1730px;
+  height: 1275px;
+  background-color: #E8E8E8;
+  border-radius: 20px;
+  justify-content: space-around;
+  margin: 60px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  gap: 10px;
+  
+  
+}
+
+
+.column-01 {
+
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1730px;
+  height: 150px;
+  
+  justify-content:center;
+
+}
+
+
+
+.column-1-item-1 {
+  
+  margin-top: 20px;
+  padding: 10px;
+  
+  width: 500px;
+  height: 80px;
+  text-align: center;
+
+}
+
+.monster-head-title {
+  font-size: 42px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.column-02 {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  width: 1730px;
+  height: 1100px;
+
+  justify-content: space-around;
+}
+
+.monster-image {
+  width: 1000px;
+  height: 571px;
+}
+
+.monster-name {
+
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.monster-lore {
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.column-2-item-1 {
+  text-align: center;
+  margin-top: 150px;
+  
+  width: 750px;
+  height: 800px;
+
+}
+
+.column-2-item-2 {
+  margin-top: 85px;
+
+  width: 750px;
+  height: 800px;
+
+}
+
+.column-03 {
+  display: flex;
+  width: 1730px;
+  height: 150px;
+
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.column-04 {
+
+  display: flex;
+  flex-direction: row;
+  width: 1730px;
+  height: 1100px;
+  justify-content: space-around;
+
+}
+
+.column-5 {
+  display: flex;
+  flex-direction: row;
+  width: 1730px;
+  height: autopx;
+
+}
+
+
+.column-4-item-01,
+.column-4-item-02,
+.column-4-item-03 
+ {
+  margin-top: 120px;
+  width: 250px;
+  height: 250px;
+
+}
+
+.monster-bestiary-img {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-bestiary {
+  background-color: #333333;
+  border-radius: 30px;
+  height: 60px;
+  width: 140px;
+  color: aliceblue;
+  font-size: 16px;
+  margin-right: 400px;
+}
+
+
+.btn-biome {
+  background-color: #333333;
+  border-radius: 30px;
+  height: 60px;
+  width: 140px;
+  color: aliceblue;
+  font-size: 16px;
+
+}

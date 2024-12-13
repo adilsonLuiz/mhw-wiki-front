@@ -1,0 +1,24 @@
+{
+    "monsters": [
+        {
+            "id": 1,
+            "name": "Fatalis",
+            "lore": "Fatalis (Black Dragon) is a Large Monster in Monster Hunter World (MHW). 黒龍ミラボレアス (Miraboreasu) in Japanese. Found haunting Castle Schrade, Fatalis takes center stage in quests like The Black Dragon and Fade to Black. Survival against this foe relies on unraveling its enigmas, using cannons and ballistae wisely, and targeting its imposing horns to endure its deadly final form's breath attack. With a solo HP of around 66,000, Fatalis becomes an even more daunting adversary in multiplayer, boasting 114,949 for duos and a staggering 171,600 for groups of three or four players.",
+            "image": ["https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/fatalis-mhw-wiki-guide.jpg"]
+        },
+        {
+            "id": 2,
+            "name": "Alatreon",
+            "lore": "Alatreon is a Large Monster in Monster Hunter World (MHW). アルバトリオン (Arubatorion) in Japanese. Alatreon is infamous for instilling fear in hunters as a symbol of destruction. Known for its elemental mastery, Alatreon is the focal point of quests such as Blazing Black Twilight and The Evening Star, displaying immediate hostility towards hunters",
+            "image": ["https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/monster-hunter-world-iceborne-alatreon.png"]
+
+        },
+        {
+            "id": 3,
+            "name": "Nergigante",
+            "lore": "Nergigante is an Elder Dragon in Monster Hunter World (MHW). Known for its spikes and aggression, it feeds on other Elder Dragons.",
+            "image": ["https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/nergigante-gallery.png"]
+        }
+
+    ]
+}
