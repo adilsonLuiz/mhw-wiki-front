@@ -1,7 +1,7 @@
 // detail about monsters
 
 import { useLocation, useNavigate } from "react-router-dom"
-
+import TitleComponent from '../components/titleComponent';
 
 export default function MonsterDetail() {
 
@@ -12,6 +12,7 @@ export default function MonsterDetail() {
 
     return (
         <div className='content-monster'>
+            <TitleComponent/>
             <button
                 onClick={() => navigate('/bestiary')}
                 className='btn-bestiary'

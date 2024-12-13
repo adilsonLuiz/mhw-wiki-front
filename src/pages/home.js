@@ -2,6 +2,7 @@
 import monsterData from '../database/monsters.json'
 import monstersImage from '../assets/Monsters-img/fatalis.webp'
 import { useNavigate } from 'react-router-dom';
+import TitleComponent from '../components/titleComponent';
 
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
         <div className='content-monster'>
             <div className='column-01'>
                 <div className='column-1-item-1'>
-                    <h1 className='monster-head-title'>MONSTER HUNTER WIKI</h1>
+                    <h1 className='monster-head-title'><TitleComponent/></h1>
                 </div>
             </div>
             <hr />

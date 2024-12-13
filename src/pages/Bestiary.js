@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import Monster from '../components/monster'
 import monsterDB from '../database/monsters.json'
 import { useNavigate } from 'react-router-dom';
+import TitleComponent from '../components/titleComponent';
 
 
 
@@ -14,12 +15,12 @@ function Bestiary() {
 
     useEffect(() => {
         setMonsters(monsterDB.monsters);
-        console.log('Monster content: ' + monsters)
     }, []);
 
 
     return (
         <div className='content-monster'>
+            <TitleComponent/>
             <div className='column-04'>
                 {monsters.map((m, index) => (
                     <Monster monster={m} />
