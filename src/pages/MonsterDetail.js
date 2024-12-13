@@ -1,13 +1,12 @@
 // detail about monsters
 
-import { useLocation, useNavigate, useParams } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 
 
 export default function MonsterDetail() {
 
 
     let { state } = useLocation();
-    let { id } = useParams();
     const navigate = useNavigate();
 
 
@@ -17,18 +16,19 @@ export default function MonsterDetail() {
                 onClick={() => navigate('/bestiary')}
                 className='btn-bestiary'
                 style={{
-                    marginLeft: '790px'
+                    marginLeft: '560px'
                 }}
             >
                 BACK TO BESTIARY
             </button>
             <img
                 src={state.m.image}
+                alt="monster"
                 style={{
                     borderRadius: '100px',
-                    maxWidth: '700px',
+                    maxWidth: '500px',
                     gap: '50px',
-                    marginLeft: '500px',
+                    marginLeft: '400px',
                 }}
             />
             <h1 style={{

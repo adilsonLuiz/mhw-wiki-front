@@ -1,6 +1,4 @@
-import Rect from 'react';
-import ReactDOM from 'react-dom/client';
-import monsterIcon from '../assets/Monster-icon/alatreon-icon.png'
+
 import monsterData from '../database/monsters.json'
 import monstersImage from '../assets/Monsters-img/fatalis.webp'
 import { useNavigate } from 'react-router-dom';
@@ -12,7 +10,7 @@ function Home() {
         <div className='content-monster'>
             <div className='column-01'>
                 <div className='column-1-item-1'>
-                    <h1 className='monster-head-title'>MONSTER OF THE DAY</h1>
+                    <h1 className='monster-head-title'>MONSTER HUNTER WIKI</h1>
                 </div>
             </div>
             <hr />
@@ -37,7 +35,6 @@ function Home() {
                         className='btn-bestiary'>
                         Check Bestiary
                     </button>
-                    <button className='btn-biome'>Check Biomes</button>
                 </footer>
             </div>
         </div>

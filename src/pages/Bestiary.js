@@ -31,10 +31,11 @@ function Bestiary() {
                         onClick={() => navigate('/')}
                         className='btn-bestiary'
                         style={{
-                            marginLeft: '790px'
+                            marginLeft: '550px',
+                            marginBottom: '50px'
                         }}
                     >
-                        Check Bestiary
+                        Back to home
                     </button>
                 </footer>
             </div>

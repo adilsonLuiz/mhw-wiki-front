@@ -18,7 +18,18 @@
             "name": "Nergigante",
             "lore": "Nergigante is an Elder Dragon in Monster Hunter World (MHW). Known for its spikes and aggression, it feeds on other Elder Dragons.",
             "image": ["https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/nergigante-gallery.png"]
+        },
+        {
+            "id": 4,
+            "name": "Teostra",
+            "lore": "Teostra is an Elder Dragon in Monster Hunter World (MHW). Known as the Emperor of Flame, Teostra engulfs its surroundings in flames and unleashes devastating explosions.",
+            "image": ["https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Teostra-large-monster-hunter-world-mhw.jpg"]
+        },
+        {
+            "id": 5,
+            "name": "Kushala Daora",
+            "lore": "Kushala Daora is an Elder Dragon in Monster Hunter World (MHW). Known as the Steel Dragon, it is surrounded by violent windstorms that make it difficult to approach.",
+            "image": ["https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/kushala-daora-large-monster-hunter-world-mhw.jpg"]
         }
-
     ]
 }
