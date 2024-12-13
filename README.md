@@ -26,10 +26,11 @@ $ npm start
 Abra o http://localhost:3000/#/ no navegador.
 
 
-## Erros conhecidos
+# Erros conhecidos
 
 Caso ocorra um erro "'react-scripts' não é reconhecido como um comando interno ou externo, um programa operável ou um arquivo em lotes."
 Executar o comando manualmente no terminal para instalar o react-script manualmente
+
 $ npm install react-scripts --save
 
 
