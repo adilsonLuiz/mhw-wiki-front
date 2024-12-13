@@ -12,7 +12,7 @@ Projeto que visa implementar uma wiki to universo de Monster Hunter World
 # Como Executar
 
 
-## 1 Necessario ter o nodeJS ou npm instalado: https://nodejs.org/en/download/package-manager/current
+## Necessario ter o nodeJS ou npm instalado: https://nodejs.org/en/download/package-manager/current
 
 
 Após clonar o repositório, é necessário ir ao diretório raiz desse projeto pelo terminal para poder executar os comandos descritos abaixo.
@@ -24,4 +24,13 @@ Para executar a interface basta executar o comando:
 
 $ npm start
 Abra o http://localhost:3000/#/ no navegador.
+
+
+## Erros conhecidos
+
+Caso ocorra um erro "'react-scripts' não é reconhecido como um comando interno ou externo, um programa operável ou um arquivo em lotes."
+Executar o comando manualmente no terminal para instalar o react-script manualmente
+$ npm install react-scripts --save
+
+
  
